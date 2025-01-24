@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="loginpage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="text-message">
+            Welcome to EFE AKSOYOGLU's web page. Please log in below to see the full web content
+        </div>
+
+        <div class="login-box">
+            <div class="login-header">
+                <span> Login</span>
+            </div>
+            
+            <form onsubmit="return login()">
+                <div class="input-box">
+                    <input type="text" id="user" class="input-field" required>
+                    <label for="user" class="label">Username</label>
+                    <i class="fa-solid fa-user icon"></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="pass" class="input-field" autocomplete="off" required>
+                    <label for="pass" class="label">Password</label>
+                    <i class="fa-solid fa-key icon"></i>
+                </div>
+
+                <div class="remember-forgot">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+
+                    <div class="forgot">
+                        <a href="#">Forgot password</a>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <input type="submit" class="input-submit" value="Log In">
+                </div>
+
+                <div class="login-with">
+                    <span>Or login with</span>
+                    <div class="social-icons">
+                        <a href="#" class="google"><i class="fa-brands fa-google"></i></a>
+                        <a href="#" class="apple"><i class="fa-brands fa-apple"></i></a>
+                    </div>
+                </div>
+
+                <div class="register">
+                    <span>Don't have an account?
+                        <a href="#">Register from here</a></span>
+                </div> 
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>2025 Creative Login Page UI Design by Atila Efe AKSOYOGLU</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/95aebef676.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
