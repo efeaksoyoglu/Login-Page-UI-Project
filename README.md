@@ -1,2 +1,1 @@
-# Login-Page-UI-Project
-2025 Creative Login Page UI Design by Atila Efe AKSOYOGLU
+HTML5 ve CSS3 kullanarak tasarlamış olduğum bir login page user interface geliştirme projesi 
